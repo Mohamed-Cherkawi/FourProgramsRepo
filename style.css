@@ -148,3 +148,66 @@ h2 , span{
         padding: 0px 10px 0px 10px;
         background-color: #ffffff;
     }
+     /* Section 3 Style */
+     .section3 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: 300px;
+        margin-top: 40px;
+    }
+    .article {
+        border: 1px solid;
+        width: 20%;
+        height: 100%;
+        padding: 10px;
+        background-color:#FFF3D9;
+      
+    }
+    /* button for artice */
+    .btn-1{
+        border-radius: 30px;
+        border: 0px;
+        padding:5px;
+        width: 80px;
+        background-color:#13366D;
+        color: white;
+        font-weight: bold;
+        margin-bottom:9px;
+        box-shadow: black;
+        display: block;
+    }
+    .btn-2{
+        border-radius: 4px;
+        background-color: #0B48A8;
+        border: 1px black;
+        color: white;
+        width: 80%;
+    }
+    .btn-2:hover{
+        background-color:#FFF3D9 ;
+        color: #0B48A8;
+        border: 1px solid black;
+    
+    }
+    
+    .h2-color {
+        color: grey;
+    }
+    .H2-article{
+        font-weight: bold;
+    }
+    .Contact-h2 {
+        margin-top: 90px;
+        font-weight: bold;
+    }
+    
+    
+    .article-fin{
+        border: 1px solid black;
+        padding: 10px;
+        height: 200px;
+    }
+    .article-fin img{
+        width: 150px;
+    }
