@@ -1,0 +1,128 @@
+/* for  mobile */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+body{
+    background-color:#FBF7EE;
+    font-family: 'Karla', sans-serif;
+}
+/* header */
+header{
+    display: grid;
+    grid-template-columns:30% 70%;
+    grid-template-rows: repeat(2,40%);
+}
+.list{
+   grid-row: 2/3; 
+   grid-column: 1/3;
+}
+.buttons{
+   grid-column:2/3 ;
+   justify-self: right;
+}
+ul{
+   display:flex;
+   justify-content: space-around;
+}
+.list li{
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+.list li:hover{
+    background-color: #0B48A8;
+    border-radius: 2px;
+    color: #FBF7EE; 
+}
+.btn2{
+    background-color:#0B48A8;
+    color: white;
+    border-radius: 4px;
+    padding:5px;
+}
+.btn1{
+    border: none;
+    color: black;
+    background-color: transparent;
+}
+/* CHERCHER */
+
+input[type=search] {
+    width: 100%;
+    font-size: 16px;
+    background-color:#FFF3D9;
+    padding: 12px 20px 12px 40px;
+    border: none;
+    font-family: 'Karla', sans-serif;
+}
+  /* title CONTACTER NOUS  */
+h1{
+    padding-top: 10px;
+    color: #0B48A8;
+    margin-bottom: 50px;
+    font-size: 2em;
+    text-align: center;
+}
+/* Continer pour les info  */
+.info-contact{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 33% 33% 33%;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
+/* ICONES */
+.fas,.fab{
+    color: #0B48A8;
+    font-size: 2em;   
+ 
+} 
+/* CONTACT */
+.info-contact h3{
+    color: gray;
+    font-family: 'Karla', sans-serif;
+}
+/* FOOTER */
+footer{
+    padding: 30px 0;
+    background-color:#13366D ;
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin-top: 30px;
+}
+footer a{
+    color:white;
+    text-decoration: none;
+}
+footer ul li {
+
+    list-style: none;
+    font-size: small;
+    margin: 0%;
+}
+.footerList li a:hover{
+    text-decoration: underline;
+    color: lawngreen;
+}
+/* for desktp */
+@media  screen and (min-width:1024px) {
+  
+    header{
+            display: grid;
+            grid-template-columns:repeat(3,1fr);
+            grid-template-rows:1fr;
+    }
+    .list{
+        grid-row: 1/2; 
+        grid-column: 2/3;
+      
+     }
+     .buttons{
+        grid-column:3/4 ;
+        justify-self: right;
+     }
+     .info-contact{
+        display: grid;
+        grid-template-columns:repeat(3,1fr);
+        grid-template-rows:1fr;
+    }   
+}
